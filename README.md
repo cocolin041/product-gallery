@@ -24,4 +24,8 @@ grid-template-columns: repeat(3, 100px);
 grid-template-columns: repeat(3, 1fr); //fr is an unit that used for divide the remaining spaces, in this case, you distribute the remaining spaces to three columns evenly
 ```
 3. ```grid-column/row```<br>
+```
+grid-column: 1/5; //means let an element position starts from column 1 to column 5
+grid-row: 1/5; //means let an element position starts from row 1 to column 5
+```
 
